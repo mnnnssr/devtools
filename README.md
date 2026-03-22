@@ -247,7 +247,7 @@ nothing to commit, working tree clean
 
 Для хранения информации о студенте используется record `Mentee`.
 
-```java
+``java
 public record Mentee(
   String name,
   String city,
