@@ -26,5 +26,9 @@ class MenteeProgressTest {
     MenteeProgress progress = new MenteeProgress("Петя", 1, 2);
     assertThat(progress.readyForSprint()).isFalse();
   }
+  @Test
+  void shouldRunMainWithoutErrors() {
+    ProgressDemo.main(new String[]{});
+  }
 
 }

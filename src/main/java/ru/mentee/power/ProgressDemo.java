@@ -1,9 +1,9 @@
 package ru.mentee.power;
 
+import java.util.ArrayList;
+
 import ru.mentee.power.devtools.student.Student;
 import ru.mentee.power.devtools.student.StudentList;
-
-import java.util.ArrayList;
 
 public class ProgressDemo {
 
